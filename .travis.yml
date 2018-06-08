@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "node"
+- node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Y2Mq/rZq7dMG4Y7L0C0hq2pXTzek88utEEY5XfwEk5oR3aerB1Rz6j1OfT3jnCp7ieecDUBa2Es4Phn+jADEvRgo8St9YQ4foXntgAs4R+hTOqGzdq6BU4wfsjpw4iDPlU4byWSUi21DEV2hoVsolCy9t5NNboaFe0irh1ZCTDpGyuwVoB+XjxJLRr0ACEIT3Gc3Q42tG1YoFhOUsyVG0TxzQr7KJJ4K4pIYQZP9geW8bfEyfC82W70H8fyz7KiPJuXqwEuWK/PdTn0XYP27ulk4WODcFK8/qME15X90DspzC9sls/Izf053U5mV0m6lb0KIki1nFUXx4X8Xe7kQZbeZwRBB5osXOvwj/v4Te0rtmdiVdht4pFbOkUy8IghdECMRooKCGhVPuMZv+gZj2+Dbp0MCEh3iFgk6UapbcaGlei6s868G5dg9X3FHvkSu2N7X/PqOFLcW7fVpoxnz9mUhFqVT8nikdyVeRh3Jfyb6qOWgFtdyZP0vCtRIRmLwyXjnpJdSk8wPPoMDjsW9hGDN8/DpE62wyB2KamUWceKlPkRWHKtNj48H2NwRWNw7Nzxc5Ga9WaPWdlu0AGf1QxWbTs79jU+dedcYJIAVaLWgPk7owSC+5/Hbcnn9orKOvCs7U8iqI30yl03NB8m9zvfBKSYynrJM2PnsCB0cMq8=
+  app: bike-route-server
+  on:
+    repo: sanvean74/bike-route-server
