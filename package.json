@@ -1,7 +1,6 @@
 {
   "name": "bike-route-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "neutrino build",
@@ -10,12 +9,29 @@
     "test": "neutrino test"
   },
   "keywords": [],
-  "author": "",
+  "author": "donna lambert",
   "license": "ISC",
   "devDependencies": {
     "@neutrinojs/airbnb-base": "^8.2.3",
     "@neutrinojs/jest": "^8.2.3",
     "@neutrinojs/node": "^8.2.3",
     "neutrino": "^8.2.3"
-  }
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanvean74/bike-route-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanvean74/bike-route-server/issues"
+  },
+  "homepage": "https://github.com/sanvean74/bike-route-server#readme",
+  "description": ""
 }
