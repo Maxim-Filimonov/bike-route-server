@@ -1,5 +1,12 @@
-const app = () => (
-  '<div style="padding: 20px"><h1>Welcome to bike-route-server</h1></div>'
-);
+import express from 'express';
+
+const app = express();
+app.get('/', (req, res) => {
+  res.send('Express');
+});
+// Uncomment this after `npm start`
+// app.get('/test', (req, res) => {
+//   res.send('Added later');
+// });
 
 export default app;
